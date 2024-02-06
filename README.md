@@ -4,7 +4,7 @@ The purpose of this project is to implement a class hierarchy to detect features
 
    2. The “Detection” class is derived from the “CommonProcessess” class which introduces features specific to feature detection. It includes attributes to manage the type of detection, file-saving directory, and methods for visualizing and writing features to files. Overloaded operators facilitate the printing of corner and line coordinates in a suitable format. The constructor initializes parameters such as scale factor, type of detection, and file-saving directory.
 
-   3. The “LineDetection” class is derived from the “Detection” class which specializes in detecting lines within an image. It includes methods to perform Canny edge detection and Hough Line Transform, along with post-processing steps like noise filtering and image rescaling. The class provides functionality to draw and display detected lines, leveraging the capabilities of the underlying OpenCV library.
+   3. The “LineDetection” class is derived from the “Detection” class which specializes in detecting lines within an image. It includes methods to perform Canny Edge Detection and Hough Line Transform, along with post-processing steps like noise filtering and image rescaling. The class provides functionality to draw and display detected lines, leveraging the capabilities of the underlying OpenCV library.
 
    4. The “CornerDetection” class is derived from the “Detection” class and focuses on corner detection. It includes methods for corner detection, normalization, drawing corners on images, and creating circles around detected corners.
 
