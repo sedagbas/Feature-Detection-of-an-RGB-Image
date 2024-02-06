@@ -1,0 +1,81 @@
+﻿  CommonProcesses.cpp
+  CornerDetection.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,103): warning C4244: 'bağımsız değişken': '_Ty' - '_Tp' dönüşümü; veri kaybı olabilir
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,103): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,103): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,103): warning C4244:             _Ty=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,103): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,103): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,103): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,103): warning C4244:             _Tp=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,103): warning C4244:         ]
+  ('CornerDetection.cpp' kaynak dosyası derleniyor)
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,103):
+  şablon örneği oluşturma bağlamı (önce en eski olan)
+  	d:\sedat\Desktop\Feature_Detection\Feature_Detection\CornerDetection.cpp(91,18):
+  	derlenen şablon işlevi 'void std::vector<cv::Point,std::allocator<cv::Point>>::emplace_back<float,float>(float &&,float &&)' örneği oluşturma başvurusuna bakın
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(862,24):
+  	derlenen şablon işlevi '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<float,float>(float &&,float &&)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Ty=cv::Point
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(780,20):
+  	derlenen şablon işlevi '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<float,float>(float &&,float &&)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Ty=cv::Point
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(798,27):
+  	derlenen şablon işlevi 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float,float>(_Alloc &,_Objty *const ,float &&,float &&)' örneği oluşturma başvurusuna bakın
+          with
+          [
+              _Alloc=std::allocator<cv::Point>,
+              _Ty=cv::Point_<int>,
+              _Objty=cv::Point_<int>
+          ]
+  
+  Detection.cpp
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(17,27): warning C4244: 'bağımsız değişken': 'const _Tp' - '_Tp' dönüşümü; veri kaybı olabilir
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(17,27): warning C4244:         with
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(17,27): warning C4244:         [
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(17,27): warning C4244:             _Tp=float
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(17,27): warning C4244:         ]
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(17,27): warning C4244:         and
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(17,27): warning C4244:         [
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(17,27): warning C4244:             _Tp=int
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(17,27): warning C4244:         ]
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(17,18): warning C4244: 'bağımsız değişken': 'const _Tp' - '_Tp' dönüşümü; veri kaybı olabilir
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(17,18): warning C4244:         with
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(17,18): warning C4244:         [
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(17,18): warning C4244:             _Tp=float
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(17,18): warning C4244:         ]
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(17,18): warning C4244:         and
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(17,18): warning C4244:         [
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(17,18): warning C4244:             _Tp=int
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(17,18): warning C4244:         ]
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(18,27): warning C4244: 'bağımsız değişken': 'const _Tp' - '_Tp' dönüşümü; veri kaybı olabilir
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(18,27): warning C4244:         with
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(18,27): warning C4244:         [
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(18,27): warning C4244:             _Tp=float
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(18,27): warning C4244:         ]
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(18,27): warning C4244:         and
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(18,27): warning C4244:         [
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(18,27): warning C4244:             _Tp=int
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(18,27): warning C4244:         ]
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(18,18): warning C4244: 'bağımsız değişken': 'const _Tp' - '_Tp' dönüşümü; veri kaybı olabilir
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(18,18): warning C4244:         with
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(18,18): warning C4244:         [
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(18,18): warning C4244:             _Tp=float
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(18,18): warning C4244:         ]
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(18,18): warning C4244:         and
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(18,18): warning C4244:         [
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(18,18): warning C4244:             _Tp=int
+d:\sedat\Desktop\Feature_Detection\Feature_Detection\Detection.cpp(18,18): warning C4244:         ]
+  Feature_Detection.cpp
+  LineDetection.cpp
+  Kod üretiliyor
+  Previous IPDB not found, fall back to full compilation.
+  All 447 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Kodun üretilmesi tamamlandı
+  Feature_Detection.vcxproj -> d:\sedat\Desktop\Feature_Detection\x64\Release\Feature_Detection.exe
